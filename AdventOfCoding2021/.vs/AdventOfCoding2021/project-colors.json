@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "20701ba2-5ba0-449b-8456-0fcbf7af8d87": {
+      "ProjectGuid": "20701ba2-5ba0-449b-8456-0fcbf7af8d87",
+      "DisplayName": "AdventOfCoding2021",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9a771798-ee54-4f87-a77a-cdd9752f75cd": {
+      "ProjectGuid": "9a771798-ee54-4f87-a77a-cdd9752f75cd",
+      "DisplayName": "AdventOfCoding2021",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
