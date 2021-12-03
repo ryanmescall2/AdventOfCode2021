@@ -123,7 +123,8 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.30.30705\\include\\list",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.30.30705\\include\\xbit_ops.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.30.30705\\include\\xnode_handle.h",
-            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.30.30705\\include\\unordered_set"
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.30.30705\\include\\unordered_set",
+            "c:\\users\\rnm36\\documents\\adventofcode\\adventofcoding2021\\adventofcoding2021\\day2.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
