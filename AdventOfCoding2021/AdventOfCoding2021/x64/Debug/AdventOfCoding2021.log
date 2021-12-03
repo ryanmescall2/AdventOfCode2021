@@ -1,7 +1,7 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (AdventOfCoding2021.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Scanning sources for module dependencies...
-  day2.cpp
+  day3.cpp
   Compiling...
-  day2.cpp
+  day3.cpp
 day2.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
   AdventOfCoding2021.vcxproj -> C:\Users\rnm36\Documents\AdventOfCode\AdventOfCoding2021\x64\Debug\AdventOfCoding2021.exe
