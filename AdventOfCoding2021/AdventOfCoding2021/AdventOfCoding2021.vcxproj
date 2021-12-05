@@ -167,19 +167,24 @@
   <ItemGroup>
     <ClCompile Include="day2.cpp" />
     <ClCompile Include="day3.cpp" />
+    <ClCompile Include="day4.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="day1.cpp" />
+    <ClCompile Include="pyStr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="day1.h" />
     <ClInclude Include="day2.h" />
     <ClInclude Include="day3.h" />
+    <ClInclude Include="day4.h" />
     <ClInclude Include="Methods.h" />
+    <ClInclude Include="pyStr.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="day1_in.txt" />
     <Text Include="day2_in.txt" />
     <Text Include="day3_in.txt" />
+    <Text Include="day4_in.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

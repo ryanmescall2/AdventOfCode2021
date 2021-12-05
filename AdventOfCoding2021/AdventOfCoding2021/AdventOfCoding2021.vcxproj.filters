@@ -30,6 +30,12 @@
     <ClCompile Include="day3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pyStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="day1.h">
@@ -44,6 +50,12 @@
     <ClInclude Include="day3.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="day4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pyStr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="day1_in.txt">
@@ -53,6 +65,9 @@
       <Filter>Inputs</Filter>
     </Text>
     <Text Include="day3_in.txt">
+      <Filter>Inputs</Filter>
+    </Text>
+    <Text Include="day4_in.txt">
       <Filter>Inputs</Filter>
     </Text>
   </ItemGroup>
