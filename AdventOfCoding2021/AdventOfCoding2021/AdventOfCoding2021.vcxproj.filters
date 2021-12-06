@@ -36,6 +36,9 @@
     <ClCompile Include="pyStr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="day1.h">
@@ -56,6 +59,9 @@
     <ClInclude Include="pyStr.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="day5.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="day1_in.txt">
@@ -68,6 +74,9 @@
       <Filter>Inputs</Filter>
     </Text>
     <Text Include="day4_in.txt">
+      <Filter>Inputs</Filter>
+    </Text>
+    <Text Include="day5_in.txt">
       <Filter>Inputs</Filter>
     </Text>
   </ItemGroup>

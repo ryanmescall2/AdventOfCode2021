@@ -7,6 +7,7 @@
 #include "day2.h"
 #include "day3.h"
 #include "day4.h"
+#include "day5.h"
 
 int main()
 {
@@ -14,4 +15,5 @@ int main()
 	Day2();
 	Day3();
 	Day4();
+	Day5();
 }
