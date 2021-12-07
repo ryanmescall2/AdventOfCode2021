@@ -146,7 +146,7 @@ std::vector<pyStr> pyStr::RemoveEmptyStrs(std::vector<pyStr> in_vec)
 	std::vector<pyStr> return_vec;
 	for (int i = 0; i < in_vec.size(); i++) {
 		if (in_vec[i].std_string() != "")
-			return_vec.push_back(in_vec[i]);
+			return_vec.emplace_back(in_vec[i]);
 	}
 	return return_vec;
 
