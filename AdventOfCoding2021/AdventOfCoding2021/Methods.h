@@ -57,3 +57,8 @@ inline std::vector<int> PyStrToIntVec(std::vector<pyStr>& pyStr_vec)
 		int_vec.push_back(atoi(pyStr_vec[i].std_string().c_str()));
 	return int_vec;
 }
+
+inline int CharToInt(char c)
+{
+	return (int)(c) - 48;
+}
