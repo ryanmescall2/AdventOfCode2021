@@ -1,19 +1,19 @@
 ﻿  Scanning sources for module dependencies...
-  day2.cpp
-  day4.cpp
-  day5.cpp
-  day1.cpp
-  day6.cpp
-  day3.cpp
-  main.cpp
-  Compiling...
   day3.cpp
   day4.cpp
+  day10.cpp
   day2.cpp
-  main.cpp
+  day13.cpp
   day5.cpp
-  day1.cpp
+  day12.cpp
+  day11.cpp
   day6.cpp
-  Generating code
-  Finished generating code
-  AdventOfCoding2021.vcxproj -> C:\Users\rnm36\Documents\AdventOfCode\AdventOfCoding2021\x64\Release\AdventOfCoding2021.exe
+  pyStr.cpp
+  day7.cpp
+  main.cpp
+  day8.cpp
+  day9.cpp
+  day1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(441,5): error MSB6006: "CL.exe" exited with code 4.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(441,5): error MSB6006: "CL.exe" exited with code 4.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(441,5): error MSB6006: "CL.exe" exited with code 4.

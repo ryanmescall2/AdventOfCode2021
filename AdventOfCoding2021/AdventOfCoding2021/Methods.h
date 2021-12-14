@@ -62,3 +62,34 @@ inline int CharToInt(char c)
 {
 	return (int)(c) - 48;
 }
+
+template <typename T>
+inline bool ValInVec(std::vector<T> vec, T val)
+{
+	for (auto& c : vec)
+	{
+		if (val == c)
+			return true;
+	}
+	return false;
+}
+
+template <typename T>
+inline int OccurencesInVec(std::vector<T> vec, T val)
+{
+	int occurences = 0;
+	for (auto& c : vec)
+	{
+		if (val == c)
+			occurences += 1;
+	}
+	return occurences;
+}
+
+inline std::vector<std::string> PyStrToStrVec(std::vector<pyStr>& pyStr_vec)
+{ // Convert a pyStr vector to an int vector
+	std::vector<std::string> str_vec;
+	for (int i = 0; i < pyStr_vec.size(); i++)
+		str_vec.push_back(pyStr_vec[i].std_string());
+	return str_vec;
+}

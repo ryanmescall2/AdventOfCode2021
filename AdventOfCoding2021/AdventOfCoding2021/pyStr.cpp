@@ -23,6 +23,11 @@ std::string pyStr::std_string() // convert back to std::string
 	return _str;
 }
 
+int pyStr::to_int() // convert to int
+{
+	return atoi(_str.c_str());
+}
+
 void pyStr::init(std::string str) // assign an std::string to initialize
 {
 	_str = str;
@@ -35,6 +40,11 @@ void pyStr::init(std::string str) // assign an std::string to initialize
 pyStr pyStr::operator+(pyStr& s) // add two pyStrs
 {
 	return std_string() + s.std_string();
+}
+
+bool pyStr::operator==(pyStr& s)
+{
+	return s.std_string() == _str;
 }
 
 int pyStr::len() // length - size of pyStr
@@ -139,6 +149,32 @@ pyStr pyStr::strip() // Not working yet
 	remove_chars[" "] = true;
 	
 	return stripped_str;
+}
+
+bool pyStr::is_upper() // check if all characters are upper case
+{
+	for (auto& c : _str) {
+		if (!isupper(c))
+			return false;
+	}
+	return true;
+}
+
+bool pyStr::is_lower() // check if all characters are lower case
+{
+	for (auto& c : _str) {
+		if (isupper(c))
+			return false;
+	}
+	return true;
+}
+
+bool pyStr::in(std::string& s) // check if string exists as a substring in the pyStr
+{
+	std::vector<pyStr> check = split(s);
+	if (check.size() == 0)
+		return false;
+	return true;
 }
 
 std::vector<pyStr> pyStr::RemoveEmptyStrs(std::vector<pyStr> in_vec)
